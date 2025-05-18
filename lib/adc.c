@@ -60,7 +60,7 @@ uint16_t ADC_Read(void)
 
 float ADC_LowPassFilter(float input, float prev_output, float alpha)
 {
-    return alpha * input + (1.0f - alpha) * prev_output;  // CÃ´ng th?c l?c
+    return alpha * input + (1.0f - alpha) * prev_output;  // Công th?c l?c
 }
 
 // Ham do dien tro su dung phan ap
